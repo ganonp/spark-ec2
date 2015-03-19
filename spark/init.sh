@@ -118,7 +118,7 @@ else
       ;;
     1.3.0)
       if [[ "$HADOOP_MAJOR_VERSION" == "1" ]]; then
-        wget http://combine.hedge.s3.amazonaws.com/hadoop/spark/spark-1.3.0-SNAPSHOT-bin-hadoop1.tgz
+        wget http://s3.amazonaws.com/spark-related-packages/spark-1.3.0-bin-hadoop1.tgz
 
       else
         wget http://s3.amazonaws.com/spark-related-packages/spark-1.2.0-bin-cdh4.tgz
